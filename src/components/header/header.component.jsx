@@ -14,7 +14,6 @@ import {HeaderContainer, LogoContainer, OptionsContainer, OptionLink} from "./he
 import { signOutStart } from "../../redux/user/user.actions"
 
 function Header({ currentUser, hidden, signOutStart }) {
-    console.log("Current User:", currentUser)
     return (
         <HeaderContainer>
             <LogoContainer to="/">

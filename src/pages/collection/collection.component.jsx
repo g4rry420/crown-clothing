@@ -5,6 +5,7 @@ import { connect } from 'react-redux'
 import CollectionItem from "../../components/collection-item/collection-item.component"
 
 function CollectionPage({ collection }) {
+
     const { title, items } = collection
     return (
         <div className="collection-page">
